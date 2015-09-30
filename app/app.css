@@ -1,0 +1,64 @@
+/* app css stylesheet */
+
+.menu {
+    list-style: none;
+    padding: 0% 15%;
+    height: 20px;
+    position: relative; 
+}
+.header{
+    width: 100%;
+    height: 30%;
+    background-color: #1e52a4;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+}
+
+.header_logo{
+    height: 30px;
+    display: list-item;
+    width: 100%;
+    /* border: 1px solid #F00; */
+    background-color: #FFF;
+    
+}
+.menu > span {
+    /*display: inline;*/
+margin-left: 5%;
+    padding: 30px 2%;
+    color: #FFF;
+    border-right: 1px solid #FFF;
+    border-left: 1px solid #FFF;
+    cursor: pointer;
+    
+}
+
+.form_wrapper{
+    /*border: 1px solid #F00;*/
+    width: 30%;
+    height: 20%;
+    float: right;
+    padding: 1% 3%;
+    margin: 5% 11% 1% 2%;
+    background-color: #B5B5B5;
+    clear: both;
+    border-top: 3px solid #EC9924;
+
+
+}
+
+.form_field_area{
+    /*border: 1px solid #008000;*/
+   margin-top: 5%;
+    width: 90%;
+    color: white;
+}
+.form_field_area > span {
+    display: block;
+    
+}
+.form_field_area > input {
+    width: 98%;
+    background-color: #FFF;
+    height: 25px;
+}

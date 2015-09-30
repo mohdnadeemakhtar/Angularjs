@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="datepicker.css">
+  
+</head>
+<body>
+<div class="header">
+    <div class="header_logo"></div>
+    <ul class="menu">
+        <span>Home</span>
+        <span>Bus</span>
+        <span>Holiday</span>
+        <span>Bus + Hotel</span>
+        <span>Daily Deals</span>
+    </ul>
+</div>
+  
+
+  <div ng-controller="View1Ctrl"> 
+  <div class="form_wrapper">
+      <div class="form_field_area">
+          <span>From</span>
+          <input type="text" placeholder="Starting point"/>
+      </div>
+      <div class="form_field_area">
+          <span>To</span>
+          <input type="text" placeholder="Destination"/>
+      </div>
+      <div id="datepicker1"></div>
+  </div>
+  </div>
+<script type="application/javascript">      debugger;
+console.log($('#datepicker1').length + "-------------------------");</script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="view1/view1.js"></script>
+  <script src="view2/view2.js"></script>
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+<!--<script src="bootstrap-datepicker.js"></script>-->
+</body>
+</html>
